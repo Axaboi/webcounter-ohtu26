@@ -17,3 +17,8 @@ Open And Configure Browser
     END
     New Context
     New Page  about:blank
+
+Start Counter From Zero
+    Go To  ${HOME_URL}
+    Click  button >> text=Nollaa
+    Get Text  body  *=  nappia painettu 0 kertaa
